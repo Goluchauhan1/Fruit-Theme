@@ -1,0 +1,206 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.lora {
+    font-family: "Lora", serif;
+}
+
+:root {
+    --topnav: #ff8400;
+    --topnavborder: #0f9144;
+    --cardbdy: #797979;
+    --footinf: #272727;
+    --date: #8f8f8f;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.grey {
+    color: var(--date);
+}
+
+.orangebg {
+    background: var(--topnav);
+}
+
+.orangetxt {
+    color: var(--topnav);
+}
+
+.top-nav {
+    background: var(--topnav);
+}
+
+header {
+    background: url('./images/healthy-food-1348464_1920.png') no-repeat center;
+    background-size: cover;
+}
+
+.active {
+    color: var(--topnav) !important;
+}
+
+#menu {
+    background: rgba(87, 87, 87, 0.712);
+    backdrop-filter: blur(5px);
+}
+
+.main-content h1 {
+    font-size: 80px;
+}
+
+.main-content h2 {
+    font-size: 60px;
+}
+
+.water-heading {
+    height: 670px;
+}
+
+.card-body h2 {
+    color: var(--topnav);
+}
+
+.btn-orange {
+    background: var(--topnav);
+}
+
+.btn-orange:hover {
+    background: var(--topnav);
+    box-shadow: 6px 9px 4px #ff840082;
+}
+
+.btn-orange:active {
+    transform: translateY(3px);
+    background: var(--topnav) !important;
+}
+
+.one-card::after {
+    content: "";
+    height: 2px;
+    width: 130px;
+    background: var(--topnav);
+}
+
+.bdy {
+    background: var(--cardbdy);
+}
+
+.our-gallery {
+    background: url('./images/Layer\ 4.png') no-repeat center;
+    background-size: cover;
+}
+
+.owl-carousel {
+    display: none !important;
+}
+
+.hover_img {
+    transition: .5s ease;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.playicn {
+    font-size: 5rem;
+}
+
+.hover_img:hover {
+    outline: 6px solid var(--topnav);
+}
+
+.hover_img:hover .middle {
+    opacity: 1;
+}
+
+.index-two {
+    z-index: 1;
+}
+
+.index-one {
+    margin-top: -100px;
+    z-index: 2;
+}
+
+.bx-shadow:hover {
+    box-shadow: 6px 6px 3px #ff840082;
+}
+
+.oranger-h,
+.txt-none {
+    text-decoration: none;
+}
+
+.oranger-h:hover {
+    color: var(--topnav) !important;
+    cursor: pointer;
+}
+
+.orange-up {
+    margin-top: -20px;
+}
+
+.circle {
+    width: 23px;
+}
+
+@media screen and (max-width: 968px) {
+    .screen-lg {
+        display: none;
+    }
+
+    .owl-carousel {
+        display: block !important;
+    }
+
+    .index-one {
+        margin-top: 20px;
+    }
+
+    .main-content h1 {
+        font-size: 35px;
+    }
+
+    .main-content h2 {
+        font-size: 25px;
+    }
+
+    .water-heading {
+        height: 300px;
+    }
+
+    .top-nav .container {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .top-nav h6 {
+        font-size: 10px;
+    }
+
+    .top-nav a {
+        font-size: 15px;
+    }
+
+    .top-nav img {
+        width: 13px;
+    }
+
+    .orange-up {
+        margin-top: -17px;
+    }
+
+    .circle {
+        width: 18px;
+    }
+}
